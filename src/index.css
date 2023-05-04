@@ -98,3 +98,7 @@ body {
   color: #919191;
   font-weight: 600;
 }
+
+.icon {
+  cursor: pointer;
+}
