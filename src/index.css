@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #252525;
+}
+
+.container-header {
+  font-size: 32px;
+  color: #fefefe;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 32px;
+  right: 32px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  font-family: "Roboto", sans-serif;
+  background-color: #fefefe;
+  padding: 2rem 2rem 4rem 2rem;
+  border-radius: 24px;
+}
+
+.form-label {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.form-input {
+  padding: 0 1rem;
+  border: 2px solid #616161;
+  border-radius: 16px;
+  font-size: 18px;
+}
+
+.form-input:focus {
+  background-color: #dfdfdf;
+}
+
+.card-container {
+  max-height: 500px;
+  min-height: 300px;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 18px;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #bcbcbc;
+  border-radius: 12px;
+}
+
+.image-container {
+  cursor: pointer;
+}
+
+#card-text-1 {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+  color: #232323bb;
+  font-weight: 600;
+}
+
+#card-text-3,
+#card-text-4 {
+  text-transform: none;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.type-text {
+  border: 2px solid #bcbcbc;
+  border-radius: 15px;
+  padding: 0 10px;
+  color: #919191;
+  font-weight: 600;
+}
